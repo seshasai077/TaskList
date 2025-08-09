@@ -35,6 +35,12 @@ A vibrant, responsive task management web app built using **HTML5**, **CSS3**, *
 2. **Display Tasks**: On page load, tasks are fetched and rendered as list items.
 3. **Delete Task**: Clicking the ❌ icon removes the task from both UI and `localStorage`.
 
+## 🌐 Live Demo
+
+👉 [Try the TaskList App](https://seshasai077.github.io/TaskList/)
+
+## 🛠️ Tech Stack
+
 ## 📌 To Run Locally
 
 1. Clone the repo:
