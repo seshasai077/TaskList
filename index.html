@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="DOM/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="DOM/bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="DOM/bootstrap/css/style.css">
+    <title>Task list APP</title>
+    <style>
+
+  body {
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card-header {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn-warning {
+    background-color: #ff9800;
+    border: none;
+    font-weight: bold;
+  }
+
+  .btn-warning:hover {
+    background-color: #fb8c00;
+  }
+
+  .list-group-item {
+    background-color: #fff3e0;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.2s ease;
+  }
+
+  .list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #ffe0b2;
+  }
+  .navbar {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 0.75rem 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+
+  .navbar-brand:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 3px;
+  }
+  .list-group-item {
+    font-family: 'Roboto', sans-serif; /* Optional: clean font */
+   background: linear-gradient(to right, #ff6a00, #ee0979) !important;
+  }
+</style>
+
+</style>
+</head>
+<body>
+      
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">
+      🗂️ Task List
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+      <!-- Optional nav items -->
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-lg">
+        <div class="card-header text-center">
+          <h3 class="mb-0">📝 Colorful Task List</h3>
+        </div>
+        <div class="card-body">
+          <form id="form">
+            <div class="mb-3">
+              <label for="form-input" class="form-label">🌟 Task Name</label>
+              <input type="text" class="form-control" id="form-input" placeholder="Enter your task">
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-warning" id="form-submit">➕ Add Task</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Task List -->
+<div class="container mb-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 task-section">
+      <ul class="list-group" id="list-item">
+        <li class="list-group-item d-flex align-items-center text-black">
+          <span >✅</span> Your Task Will be added here
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+      
+     <!-- bootstrap js files -->
+    <script src="DOM/bootstrap/js/bootstrap.js"></script>
+    <script src="DOM/bootstrap/js/bootstrap.js"></script>
+    <script src="DOM/bootstrap/js/popper.min.js"></script>
+    <script src="DOM/bootstrap/js/mdb.js"></script>
+    <!-- locla js file -->
+    <script src="index.js"></script>
+</body>
+</html>
